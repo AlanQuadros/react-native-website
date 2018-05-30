@@ -130,9 +130,9 @@ Sometimes, you might be getting encoded image data from a REST API call. You can
 <Image
   style={{
     width: 51,
-    height: 51,
-    resizeMode: Image.resizeMode.contain,
+    height: 51
   }}
+  resizeMode={'contain'}
   source={{
     uri:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==',
